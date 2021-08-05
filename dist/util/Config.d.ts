@@ -98,6 +98,7 @@ export interface DefaultOptions {
             allowlist: boolean;
             blocklist: boolean;
             domains: string[];
+            emailWhitelistEnabled: boolean;
             whitelistedEmails: string[];
         };
         dateOfBirth: {

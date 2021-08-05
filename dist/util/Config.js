@@ -113,6 +113,7 @@ exports.DefaultOptions = {
             blocklist: true,
             domains: [],
             // domains: fs.readFileSync(__dirname + "/blockedEmailDomains.txt", { encoding: "utf8" }).split("\n"),
+            emailWhitelistEnabled: false,
             whitelistedEmails: [],
         },
         dateOfBirth: {
