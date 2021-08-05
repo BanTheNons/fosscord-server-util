@@ -16,6 +16,7 @@ exports.PublicUserProjection = {
     public_flags: true,
     avatar: true,
     bio: true,
+    bot: true,
 };
 var RelationshipType;
 (function (RelationshipType) {

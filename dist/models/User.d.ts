@@ -10,6 +10,7 @@ export declare const PublicUserProjection: {
     public_flags: boolean;
     avatar: boolean;
     bio: boolean;
+    bot: boolean;
 };
 export interface User {
     id: string;
@@ -58,6 +59,7 @@ export interface PublicUser {
     username: string;
     avatar: string | null;
     public_flags: bigint;
+    bot: boolean;
 }
 export interface ConnectedAccount {
     access_token: string;
