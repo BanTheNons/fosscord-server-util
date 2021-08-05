@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MessageType = exports.JWTOptions = void 0;
+exports.JWTOptions = { algorithms: ["HS256"] };
+var MessageType;
+(function (MessageType) {
+    MessageType[MessageType["DEFAULT"] = 0] = "DEFAULT";
+    MessageType[MessageType["RECIPIENT_ADD"] = 1] = "RECIPIENT_ADD";
+    MessageType[MessageType["RECIPIENT_REMOVE"] = 2] = "RECIPIENT_REMOVE";
+    MessageType[MessageType["CALL"] = 3] = "CALL";
+    MessageType[MessageType["CHANNEL_NAME_CHANGE"] = 4] = "CHANNEL_NAME_CHANGE";
+    MessageType[MessageType["CHANNEL_ICON_CHANGE"] = 5] = "CHANNEL_ICON_CHANGE";
+    MessageType[MessageType["CHANNEL_PINNED_MESSAGE"] = 6] = "CHANNEL_PINNED_MESSAGE";
+    MessageType[MessageType["GUILD_MEMBER_JOIN"] = 7] = "GUILD_MEMBER_JOIN";
+    MessageType[MessageType["USER_PREMIUM_GUILD_SUBSCRIPTION"] = 8] = "USER_PREMIUM_GUILD_SUBSCRIPTION";
+    MessageType[MessageType["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_1"] = 9] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_1";
+    MessageType[MessageType["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_2"] = 10] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_2";
+    MessageType[MessageType["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_3"] = 11] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_3";
+    MessageType[MessageType["CHANNEL_FOLLOW_ADD"] = 12] = "CHANNEL_FOLLOW_ADD";
+    MessageType[MessageType["GUILD_DISCOVERY_DISQUALIFIED"] = 13] = "GUILD_DISCOVERY_DISQUALIFIED";
+    MessageType[MessageType["GUILD_DISCOVERY_REQUALIFIED"] = 14] = "GUILD_DISCOVERY_REQUALIFIED";
+    MessageType[MessageType["GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING"] = 15] = "GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING";
+    MessageType[MessageType["GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING"] = 16] = "GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING";
+    MessageType[MessageType["THREAD_CREATED"] = 17] = "THREAD_CREATED";
+    MessageType[MessageType["REPLY"] = 18] = "REPLY";
+    MessageType[MessageType["APPLICATION_COMMAND"] = 19] = "APPLICATION_COMMAND";
+    MessageType[MessageType["THREAD_STARTER_MESSAGE"] = 20] = "THREAD_STARTER_MESSAGE";
+    MessageType[MessageType["GUILD_INVITE_REMINDER"] = 21] = "GUILD_INVITE_REMINDER";
+})(MessageType = exports.MessageType || (exports.MessageType = {}));
+//# sourceMappingURL=Constants.js.map
