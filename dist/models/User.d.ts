@@ -9,6 +9,7 @@ export declare const PublicUserProjection: {
     id: boolean;
     public_flags: boolean;
     avatar: boolean;
+    accent_color: boolean;
     bio: boolean;
     bot: boolean;
 };
@@ -17,6 +18,7 @@ export interface User {
     username: string;
     discriminator: string;
     avatar: string | null;
+    accent_color: number;
     phone: string | null;
     desktop: boolean;
     mobile: boolean;
@@ -58,6 +60,7 @@ export interface PublicUser {
     discriminator: string;
     username: string;
     avatar: string | null;
+    accent_color: number;
     public_flags: bigint;
     bot: boolean;
 }

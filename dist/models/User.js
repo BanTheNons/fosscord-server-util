@@ -15,6 +15,7 @@ exports.PublicUserProjection = {
     id: true,
     public_flags: true,
     avatar: true,
+    accent_color: true,
     bio: true,
     bot: true,
 };
