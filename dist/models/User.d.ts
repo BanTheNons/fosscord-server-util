@@ -18,7 +18,7 @@ export interface User {
     username: string;
     discriminator: string;
     avatar: string | null;
-    accent_color: number;
+    accent_color: number | null;
     phone: string | null;
     desktop: boolean;
     mobile: boolean;
