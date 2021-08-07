@@ -16,6 +16,7 @@ exports.PublicUserProjection = {
     public_flags: true,
     avatar: true,
     accent_color: true,
+    banner: true,
     bio: true,
     bot: true,
 };
@@ -32,6 +33,7 @@ exports.UserSchema = new mongoose_1.Schema({
     discriminator: String,
     avatar: String,
     accent_color: Number,
+    banner: String,
     phone: String,
     desktop: Boolean,
     mobile: Boolean,
