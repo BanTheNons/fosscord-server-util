@@ -31,6 +31,7 @@ exports.UserSchema = new mongoose_1.Schema({
     username: String,
     discriminator: String,
     avatar: String,
+    accent_color: Number,
     phone: String,
     desktop: Boolean,
     mobile: Boolean,
