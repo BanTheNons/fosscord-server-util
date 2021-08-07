@@ -32,7 +32,7 @@ export interface Message {
         party_id: string;
     };
     flags?: bigint;
-    stickers?: [];
+    stickers?: any[];
     message_reference?: {
         message_id: string;
         channel_id?: string;
